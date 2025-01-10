@@ -1,24 +1,54 @@
-# Basic Portfolio Layout
+# Modern Glassmorphism Portfolio Template
 
-A simple HTML/CSS portfolio site showcasing personal information, projects, and contact details.
+A sophisticated portfolio template showcasing modern CSS techniques, glassmorphism effects, and responsive design principles.
 
-## Features
-- **Clean, responsive layout** using HTML5 semantics and CSS3.
-- **Flexbox** for layout management.
-- **Hover effects** on navigation links.
+## Technical Features
+- **Glassmorphism Design**: Implemented with `backdrop-filter` and gradient overlays
+- **Fluid Typography**: Using `clamp()` for responsive text scaling
+- **CSS Animations**: Custom keyframes for subtle motion effects
+- **Mobile-First Design**: Responsive breakpoints and viewport optimization
+- **Advanced CSS**: Pseudo-elements, custom properties, and gradient effects
+
+## CSS Techniques Demonstrated
+- Backdrop filters for glass effects
+- GPU-accelerated animations
+- CSS Custom Properties
+- Complex gradient layering
+- Flexbox/Grid layouts
+- Mobile-responsive design
 
 ## Setup Instructions
-1. Clone this repository.
-2. Open `index.html` in your browser.
+1. Clone repository
+2. Open `index.html` in modern browser (Chrome/Firefox recommended)
+3. Customize content in HTML
+4. Modify CSS variables for theming
 
-## Customization
-- Edit `index.html` to add your personal information, projects, and contact details.
-- Modify `styles.css` to change the visual appearance.
+## Customization Guide
+### Colors
+- Edit gradient values in `:root`
+- Adjust glassmorphism opacity
+- Modify glow effects
 
-## Contributions
-Feel free to fork this project for your own use. Pull requests for enhancements are welcome.
+### Typography
+- Change font sizes via `clamp()`
+- Adjust letter spacing
+- Modify font-families
 
-...existing code...
+### Animations
+- Edit keyframe timings
+- Adjust transform values
+- Customize glow intensities
+
+## Browser Compatibility
+- Chrome 76+
+- Firefox 70+
+- Safari 13+
+- Edge 79+
+
+## Known Issues
+- Backdrop-filter requires fallback in older browsers
+- Animation performance varies by device
+- Mobile viewport adjustments needed for some devices
 
 ## Contact
 - GitHub: [shawnlondono](https://github.com/shawnlondono)
